@@ -1,0 +1,26 @@
+{
+  "name": "serviceintergration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-arrays": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kongSteve/serviceIntergration.git"
+  },
+  "author": "Stephen Ngetich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kongSteve/serviceIntergration/issues"
+  },
+  "homepage": "https://github.com/kongSteve/serviceIntergration#readme"
+}

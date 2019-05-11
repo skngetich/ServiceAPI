@@ -1,24 +1,27 @@
 # ServiceAPI
 
-# Question 1 
+## Question 1 
+
+Install packages
+`npm install`
+
+ To Run Test :`npm test` or `mocha`
+
+## Question 2
 
 Install packages
 ```
 npm install
 ```
-Run Test
 
+Routes that protected:
+`/api` : to access the the routes you need to send a **JWT token** 
+ `secret_token` in the  **param** when sending the request
+ 
+  `http://localhost:4000/api/carmodel/blue?secret_token={{jwt_token}}`
+ 
 
-`npm test` or `mocha`
-
-# Question 2
-
-Install packages
-```
-npm install
-```
-
-# Question 3
+## Question 3
 
 Install packages
 ```

@@ -3,13 +3,15 @@ var router = express.Router();
 const passport = require('passport');
 const jwt = require('jsonwebtoken');
 
+
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.send({
     api:{
       ave_car_details:"/api/carmodel/create",
       Get_car_by_color_or_Model:'/api/carmodel/create',
-      update_car_model_
+      update_car_model: "/api/carmodel/update"
     }
   });
 });
